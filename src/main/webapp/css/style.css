@@ -1,0 +1,12 @@
+input[readonly]{
+	cursor: default;
+}
+input[readonly]:focus{
+	cursor: default;
+	box-shadow: none;
+}
+
+.icon-link:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+    transition: transform 0.3s ease-in-out; /* Agrega una animación suave al cambio de tamaño */
+}
